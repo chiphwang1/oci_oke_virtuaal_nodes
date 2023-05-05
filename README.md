@@ -13,7 +13,10 @@ This Terraform stack facilitates the deployment of an Oracle Container Engine fo
 - [Terraform Installed](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 
-Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?region=home&zipUrl=https://github.com/chiphwang1/oke-virtualnodes/archive/refs/tags/v2.zip)
+Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?region=home&zipUrl=Sourcecode
+(zip)
+
+Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?region=home&zipUrl=https://github.com/chiphwang1/oci_oke_virtuaal_nodes/archive/refs/tags/v1.zip)
 
 ## Installation of Terraform stack
 
@@ -43,8 +46,6 @@ Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.
 ###  Sample Output 
 ![title](kubeconfig1.png)
 
-###  Sample command
- oci ce cluster create-kubeconfig --cluster-id ocid1.cluster.oc1.iad.aaaaaaaas3qhb3xf7figx7fuvr2v6ubon2zwyomqhx7buwnwjccsz2w46esq --file $HOME/.kube/config --region us-ashburn-1 --token-version 2.0.0  --kube-endpoint PUBLIC_ENDPOINT    
 
 **7. To remove Terraform stack**
 
