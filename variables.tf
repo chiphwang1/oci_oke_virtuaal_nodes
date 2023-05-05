@@ -60,7 +60,7 @@ variable "deploy_metrics_server" {
 variable "deploy_kubernetes_dashboard" {
   description = "Set to true to create the resource, false to skip it."
   type        = bool
-  default     = true
+  default     = false
 }
 
 

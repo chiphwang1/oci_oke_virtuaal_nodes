@@ -16,7 +16,6 @@ variableGroups:
       - "node_size"
       - "kubernetes_version"
       - "deploy_metrics_server"
-      - "deploy_kubernetes_dashboard"
       - "deploy_ingress_controller"
     - title: "Policy Inputs"
       variables:
@@ -75,8 +74,8 @@ variables:
 
     "deploy_kubernetes_dashboard":
       type: boolean
-      visible: true
-      required: true
+      visible: false
+      required: false
       title: "Kubernetes Dashboard"
       description: "Choose to add Metrics Server to OKE cluster"
 
