@@ -45,7 +45,7 @@ variables:
       minimum: 1
       maximum: 1000
       title: "Number of Virtual Nodes"
-      description: "number of worker nodes"
+      description: "number of virtual  nodes"
 
     "pod_shape":
       type: enum
