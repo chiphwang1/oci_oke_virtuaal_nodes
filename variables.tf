@@ -2,11 +2,11 @@
 # Compartment to deploy OKE Virual Node Cluster
 variable "compartment_id" {
     type = string
-    default = "ocid1.tenancy.oc1..aaaaaaaajznex5attydtrmrgudwayqu7kn4krasw2ct4h4pwz7nwbfxoyd4q"
+    #default = ""
 }
 
 variable "tenancy_ocid" {
-default = "ocid1.tenancy.oc1..aaaaaaaajznex5attydtrmrgudwayqu7kn4krasw2ct4h4pwz7nwbfxoyd4q"
+#default = "ocid1.tenancy.oc1..aaaaaaaajznex5attydtrmrgudwayqu7kn4krasw2ct4h4pwz7nwbfxoyd4q"
 }
 
 
