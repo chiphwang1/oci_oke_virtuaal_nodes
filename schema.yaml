@@ -92,7 +92,7 @@ variables:
       type: boolean
       visible: true
       required: true
-      title: "create IAM policy for Virtual Nodes"
+      title: "IAM policy for Virtual Nodes"
       description: "Choose to create policy for Virtial Node Operation"
 
     "root_compartment_id":

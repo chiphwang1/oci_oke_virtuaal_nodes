@@ -13,7 +13,7 @@ This Terraform stack facilitates the deployment of an Oracle Container Engine fo
 - [Terraform Installed](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 
-Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?region=home&zipUrl=https://github.com/chiphwang1/oci_oke_virtuaal_nodes/archive/refs/tags/v3.zip)
+Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?region=home&zipUrl=https://github.com/chiphwang1/oci_oke_virtuaal_nodes/archive/refs/tags/v4.zip)
 
 ## Installation of Terraform stack
 
