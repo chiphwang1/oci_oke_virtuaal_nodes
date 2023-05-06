@@ -12,8 +12,8 @@ variableGroups:
       - "region"
     - title: "OKE Inputs"
       variables:
-      - "node_shape"
-      - "node_size"
+      - "pod_shape"
+      - "virtual_node_count"
       - "kubernetes_version"
     - title: "OKE Add-ons"
       variables:
@@ -54,7 +54,7 @@ variables:
       - "Pod.Standard.E3.Flex" 
       visible: true
       required: true
-      title: "Node Size"
+      title: "Pod Shape"
       description: "Shapes of Virtal Nodes"
 
     "kubernetes_version":
