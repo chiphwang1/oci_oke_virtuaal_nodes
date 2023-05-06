@@ -55,7 +55,7 @@ variables:
       visible: true
       required: true
       title: "Pod Shape"
-      description: "Shapes of Virtal Nodes"
+      description: "Shapes of Virtual Nodes"
 
     "kubernetes_version":
       type: enum
