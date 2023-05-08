@@ -38,7 +38,7 @@ variable "virtual_node_count" {
 variable "create_IAM_policy" {
   description = "Set to true to create the resource, false to skip it."
   type        = bool
-  default     = true
+  default     = false
 }
 
 # root compartment of tenancy to create ske policy for Virtual Nodes if "create_oke_virtual_node_policy" varaiable is set to true
