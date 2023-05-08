@@ -19,11 +19,11 @@ Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.
 
 **1. Clone or download the contents of this repo** 
      
-     git clone https://github.com/chiphwang1/oke-virtualnodes.git
+     git clone https://github.com/chiphwang1/oci_oke_virtual_nodes.git
 
 **2. Change to the directory that holds the Terraform stack** 
 
-      cd ./oke-virtualnodes
+      cd ./oci_oke_virtual_nodes
 
 **3. Populate the varaibles.tf file**
 
