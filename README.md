@@ -58,7 +58,7 @@ Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.
 | `tenancy_ocid` | Tenancy ocid| string | yes  |
 | `region` | region to deploy the OKE Virtual Nodes Cluster  | string | yes     |
 | `pod_shape` | The shape of Virtual Nodes | string | yes       |
-| `viryual_node_count` | The number of Virtual Nodes in the node pool  | number | yes       |
+| `virtual_node_count` | The number of Virtual Nodes in the node pool  | number | yes       |
 | `create_IAM_policy` | To create the policy for for Virtual Node operations. Set to "true" to create the policy | bool | yes       |
 | `root_compartment_id` | Root compartment to deploy OKE Virtual Nodes policy | string | yes if  `create_oke_virtual_node_policy` is set to true |
 | `deploy_metrics_server` | install metrics server. Set to "true" to create the policy | bool | yes  |
@@ -73,8 +73,10 @@ Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.
      
      kubectl get nodes -o wide
 
+**1. Get IP address of Nginx ingress controller**
 
-
+     kubectl -n default get svc ingress-nginx
+     
 ## Additional Resources
 
 - [OKE Virtual Nodes deliver a serverless Kubernetes experience](https://blogs.oracle.com/cloud-infrastructure/post/oke-virtual-nodes-deliver-serverless-experience)
