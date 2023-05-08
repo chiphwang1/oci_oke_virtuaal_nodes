@@ -6,7 +6,7 @@ variable "compartment_id" {
 }
 
 variable "tenancy_ocid" {
-#default = "ocid1.tenancy.oc1..aaaaaaaajznex5attydtrmrgudwayqu7kn4krasw2ct4h4pwz7nwbfxoyd4q"
+type = string
 }
 
 
@@ -17,7 +17,7 @@ variable "kubernetes_version" {
 
 variable "region" {
     type = string
-    default = "us-phoenix-1"
+    default = "us-ashburn-1"
 }
 
 # Shape of Virtual Nodes
@@ -44,7 +44,7 @@ variable "create_IAM_policy" {
 # root compartment of tenancy to create ske policy for Virtual Nodes if "create_oke_virtual_node_policy" varaiable is set to true
 variable "root_compartment_id" {
     type = string
-    default = "ocid1.tenancy.oc1..aaaaaaaajznex5attydtrmrgudwayqu7kn4krasw2ct4h4pwz7nwbfxoyd4q"
+    #default = ""
 }
 
 
