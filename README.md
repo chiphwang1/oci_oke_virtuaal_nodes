@@ -63,7 +63,7 @@ Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.
 | `root_compartment_id` | Root compartment to deploy OKE Virtual Nodes policy | string | yes if  `create_IAM_policy` is set to true |
 | `deploy_metrics_server` | install metrics server. Set to "true" to create the policy | bool | yes  |
 | `deploy_kubernetes_dashboard` | install Kubernetes dashboard. Set to "true" to create the policy | bool | yes  |
-| `deploy_ingress_controller` | install ingnx ingress controller. Set to "true" to create the policy | bool | yes  |
+| `deploy_ingress_controller` | install NGINX ingress controller. Set to "true" to create the policy | bool | yes  |
 
 
 ## Useful commands 
@@ -73,7 +73,7 @@ Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.
      
      kubectl get nodes -o wide
 
-**1. Get IP address of Nginx ingress controller**
+**2. Get IP address of Nginx ingress controller**
 
      kubectl -n default get svc ingress-nginx
 
