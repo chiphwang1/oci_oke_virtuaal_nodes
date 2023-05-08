@@ -97,7 +97,7 @@ variables:
 
     "root_compartment_id":
       type: oci:identity:compartment:id
-      visible: true
+      visible: "create_IAM_policy"
       required: false
       title: "Root Compartment"
       description: "Root Compartment"
